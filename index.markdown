@@ -2,8 +2,7 @@
 title: Home
 ---
 
-bare is an empty template. but is it really? o really tho bad bum tss
-
+# I AM HERE in siteleaf waddup fam
 
 
 
