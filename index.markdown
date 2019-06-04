@@ -2,7 +2,7 @@
 title: Home
 ---
 
-bare is an empty template.
+bare is an empty template. but is it really? o really tho bad bum tss
 
 
 
