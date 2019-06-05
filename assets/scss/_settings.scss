@@ -1,7 +1,7 @@
-$font-heading: Imperial URW, Karla, Abril Fatface, Times, serif;
-$font-body: Karla, monospace, sans-serif;
-$font-caption: 'Francois One', Franklin Gothic, sans-serif;
-$font-monospace: Roboto Mono, monospace;
+$font--heading: 'Source Serif Pro', serif;
+$font--body: 'Source Sans Pro', monospace, sans-serif;
+$font--caption: 'Francois One', Franklin Gothic, sans-serif;
+$font--monospace: Roboto Mono, monospace;
 
 // Variables
 
@@ -13,8 +13,10 @@ $green: #bada55;
 $yellow-fast: #fee900;
 $gray: rgb(31, 31, 31);
 
-$facebook-blue: #3b5998;
-$twitter-blue: #55acee;
+$maroon: #7B0000;
+$pink: #FFE9E9;
+$pink--dark: #FFCBCB;
+$pink--light: #FFF9F9;
 
 $small-width: 600px;
 $medium-width: 768px;
@@ -124,19 +126,19 @@ $large-width: 1024px;
 }
 
 ::selection {
-	background: $red;
+	background: rgba($maroon, 0.5);
 	color: white;
 }
 
 ::-moz-selection {
-	background: $red;
+	background: rgba($maroon, 0.5);
+	// background: $red;
 	color: white;
 }
 
 html, body {
 	min-height: 100%;
 }
-
 
 header, section, footer {
 	width: 100%;
@@ -172,9 +174,9 @@ u { text-decoration: underline; }
 
 img { max-width: 100%; }
 
-small {
-    font-size: 90%;
-}
+// small {
+//     font-size: 90%;
+// }
 
 header, footer, section {
 	overflow: auto;
@@ -199,13 +201,13 @@ input[placeholder],
 	  outline-offset: 0;
 	  max-width: 100%;
 	  font: {
-	  	family: $font-body;
+	  	family: $font--body;
 	  }
 }
 
 input[type="submit"] {
 	font: {
-		family: $font-body;
+		family: $font--body;
 		weight: bold;
 	}
 	text-transform: uppercase;

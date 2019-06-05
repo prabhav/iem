@@ -38,7 +38,8 @@ module.exports = function(grunt) {
         command: "jekyll serve --baseurl="
       },
       jekyllBuild: {
-        command: "jekyll build --config _config-dev.yml"
+        // command: "jekyll build --config _config-dev.yml"
+        command: "jekyll build --config _config.yml"
         // command: "jekyll build"
       }
     },
@@ -126,5 +127,6 @@ module.exports = function(grunt) {
   // Default task(s).
   grunt.registerTask('default', ['concat', 'uglify', 'imagemin', 'sass', "shell:jekyllBuild", 'watch']);
   // grunt.registerTask('default', ['concat', 'uglify', 'sass', 'autoprefixer', 'watch']);
+  // grunt.registerTask('default', ['concat', 'uglify', 'sass', 'autoprefixer']);
 
 };
