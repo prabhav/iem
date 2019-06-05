@@ -29,7 +29,11 @@ nav[role="navigation"] {
 
 	// height: 100vh;
 	// padding: 2rem;
-	background: $pink--light;
+	// background: $pink--light;
+
+	// @include medium {
+	// 	background: white;
+	// }
 
 	.nav-icon {
 		position: fixed;
@@ -53,7 +57,11 @@ nav[role="navigation"] {
 		}
 
 		&.turn {
-			transform: rotate(45deg);
+			transform: rotate(135deg);
+		}
+
+		@include medium {
+			display: none;
 		}
 	}
 
@@ -63,8 +71,7 @@ nav[role="navigation"] {
 		flex-flow: column wrap;
 		justify-content: flex-end;
 		height: 100vh;
-
-		animation: fadeIn 0.35s;
+		animation: fadeOut 0.35s;
 
 		background: $pink;
 
@@ -75,14 +82,6 @@ nav[role="navigation"] {
 
 		padding: 2rem;
 
-		&.close {
-			display: none;
-			// opacity: 0;
-			// animation: none;
-		animation: fadeOut 0.35s;
-
-		}
-
 		font: {
 			family: $font--heading;
 			weight: 700;
@@ -90,6 +89,41 @@ nav[role="navigation"] {
 		} 
 		text-decoration: underline;
 		color: $maroon;
+
+		
+
+		@include medium {
+			position: static;
+
+			flex-flow: row nowrap;
+			justify-content: space-around;
+			height: auto;
+			font-size: 1.125rem;
+			animation: none;
+			backgorund: white;
+		}
+
+		&.close {
+			display: none;
+			// opacity: 0;
+			// animation: none;
+			animation: fadeOut 0.35s;
+
+			@include medium {
+				display: flex;
+				animation: none;
+			}
+		}
+
+		&.open {
+			// animation: fadeOut 0.35s;
+		animation: fadeIn 0.4s;
+		@include medium {
+			animation: none;
+		}
+
+		}
+
 
 		li {
 			margin-top: 0.75rem;
