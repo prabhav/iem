@@ -140,11 +140,6 @@ html, body {
 	min-height: 100%;
 }
 
-header, section, footer {
-	width: 100%;
-	overflow: auto;
-}
-
 a {
 	text-decoration: none;
 	color: inherit;
@@ -177,11 +172,6 @@ img { max-width: 100%; }
 // small {
 //     font-size: 90%;
 // }
-
-header, footer, section {
-	overflow: auto;
-	width: 100%;
-}
 
 // Form Reset
 
