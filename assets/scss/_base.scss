@@ -20,7 +20,7 @@ h1 {
 		weight: 700;
 	}
 	color: $maroon;
-	line-height: 1.2;
+	line-height: 1.15;
 }
 
 h2 {
@@ -29,7 +29,7 @@ h2 {
 		size: 3em;
 	}
 	color: $maroon;
-	line-height: 1.2;
+	line-height: 1.15;
 }
 
 p.lead {
@@ -43,19 +43,20 @@ p.lead {
 }
 
 a.button {
-	background: $maroon;
 	border-radius: 10px;
 	padding: 1.25rem;
 	display: inline-block;
 	transition: 0.185s;
 
+	background: $maroon;
 	font: {
 		family: $font--heading;
 		weight: 700;
 		size: 1.325rem;
 	}
-	color: white;
-	box-shadow: 5px 5px 0 $pink--dark;
+	color: $pink--light;
+	// box-shadow: 5px 5px 0 $pink--dark;
+	box-shadow: 5px 5px 0 rgba($maroon, 0.5);
 
 	&:hover, &:focus {
 		background: darken($maroon, 5%);
@@ -126,7 +127,9 @@ nav[role="navigation"] {
 		display: flex;
 		flex-flow: column wrap;
 		justify-content: flex-end;
-		height: 100vh;
+		height: 100vh; /* Fallback for browsers that do not support Custom Properties */
+  		height: calc(var(--vh, 1vh) * 100);
+		
 		animation: fadeOut 0.35s;
 
 		background: $pink;
@@ -206,12 +209,12 @@ section.intro {
 	grid-template-areas:     ". hd	hd	hd	hd	hd	hd .";
 
 	@include small {
-		grid-template-areas: ". hd	hd	hd	hd	img	img img";
-		background: $pink--light;
+		grid-template-areas: ". hd	hd	hd	hd	hd	img img";
 
 	}
 
 	@include medium {
+		background: $pink--light;
 
 		grid-template-areas: ". hd	hd	hd	.	img	img img";
 	}
@@ -251,7 +254,7 @@ section.intro {
 		// opacity: 0.4;
 		display: none;
 
-		@include small {
+		@include medium {
 			grid-area: img;
 			opacity: 1;
 			display: flex;
