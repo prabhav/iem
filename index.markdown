@@ -2,7 +2,6 @@
 title: Home
 ---
 
-
 ## yay then whatever right
 
 
