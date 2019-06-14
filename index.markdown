@@ -1,17 +1,17 @@
 ---
 title: Home
-layout: layout--index
 intro__headline-text: This is new customaizable content
 intro__subtitle-text: 1 in 10000 children are born with a passion to do something
   amazing
 intro__button-text: Get my baby pregnant
 faqs:
 - question-text: How is you bowel feeling?
-  answer-text: lorem sjoduas dusado uahsuas udhaosudhoasuduahsuhasdhasudhasudasuduaos
-    (has)[http://#] sa douhasd ouhaos dahsoudhsudhashdoasdhouasdhuhasd ouhaos uhas
-    d
+  answer-text: lorem sjoduas dusado uahsuas udhaosudhoas [uduahsuhasd](http://google.com)
+    hasudhasudasuduaos  sa douhasd ouhaos dahsoudhsudhashdoasdhouasdhuhasd ouhaos
+    uhas d
 - question-text: Is it not feeling that well?
   answer-text: awwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+layout: layout--index
 ---
 
 ## yay then whatever right
