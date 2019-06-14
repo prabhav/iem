@@ -3,7 +3,7 @@ $font--body: 'Source Sans Pro', monospace, sans-serif;
 $font--caption: 'Francois One', Franklin Gothic, sans-serif;
 $font--monospace: Roboto Mono, monospace;
 
-// Variables
+// Colors
 
 $blue: #00adef;
 $orange: #fa5c5c;
@@ -11,7 +11,7 @@ $yellow: #f1c40f;
 $red: #f22613;
 $green: #bada55;
 $yellow-fast: #fee900;
-$gray: rgb(31, 31, 31);
+$gray: #383838;
 
 $maroon: #7B0000;
 $pink: #FFE9E9;
@@ -21,6 +21,11 @@ $pink--light: #FFF9F9;
 $small-width: 600px;
 $medium-width: 768px;
 $large-width: 1024px;
+
+// $padding--horizontal: 5%;
+// Padding for padded sections (.padded in _base.scss)
+$padding--horizontal: 10vw;
+$padding--vertical: 3rem;
 
 @mixin small {
   @media (min-width: #{$small-width}) {

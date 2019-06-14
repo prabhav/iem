@@ -2,11 +2,15 @@ body {
 	background: white;
 	font: {
 		family: $font--body;
-		size: 100%;
+		size: 85%;
 	}
-	color: #383838;
+	color: $gray;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
+
+	@include small { font-size: 90%; }
+	@include medium { font-size: 95%; }
+	@include large { font-size: 100%; }
 }
 
 * {
@@ -21,6 +25,8 @@ h1 {
 	}
 	color: $maroon;
 	line-height: 1.15;
+
+	margin-bottom: 1.25rem;
 }
 
 h2 {
@@ -30,6 +36,17 @@ h2 {
 	}
 	color: $maroon;
 	line-height: 1.15;
+
+	margin-bottom: 1rem;
+}
+
+p {
+	hyphens: auto;
+	word-break: break-word;
+
+	font-size: 1.25em;
+	margin-bottom: 1rem;
+	line-height: 1.4;
 }
 
 p.lead {
@@ -69,12 +86,7 @@ a.button {
 	}
 }
 
-$padding--horizontal: 5%;
-$padding--vertical: 2rem;
-
-$blue: #00adef;
-
-.section {
+.padded {
 	padding: $padding--vertical $padding--horizontal;
 }
 
@@ -243,7 +255,11 @@ section.intro {
 		}
 
 		.button {
-			margin-top: 1.725rem;
+			margin-top: 1rem;
+
+			@include medium {
+				margin-top: 1.725rem;
+			}
 		}
 	}
 
@@ -268,4 +284,8 @@ section.intro {
 			width: 100%;
 		}
 	}
+}
+
+section.half-grid {
+	// background: hotpink;
 }

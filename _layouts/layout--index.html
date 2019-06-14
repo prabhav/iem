@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<section class="intro">
+    <main>
+        <h1>{{ page.intro__headline-text }}</h1>
+        <p class="lead">{{ page.intro__subtitle-text }}</p>
+        
+        <a href="#" class="button">{{ page.intro__button-text }}</a>
+    </main>
+    <figure>
+        <img src="{{ site.baseurl }}/assets/img/baby.png" alt="">
+    </figure>
+</section>
+
+<section class="half-grid">
+    <article class="padded">
+        {% for faq in page.faqs %}
+            <h2>{{ faq.question-text }}</h2>
+            <p>{{ faq.answer-text }}</p>
+        {% endfor %}
+    </article>
+    
+</section>
+
