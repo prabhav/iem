@@ -15,12 +15,58 @@ layout: default
 </section>
 
 <section class="half-grid">
-    <article class="padded">
+    <article class="padded--inner faq">
         {% for faq in page.faqs %}
-            <h2>{{ faq.question-text }}</h2>
-            <p>{{ faq.answer-text | markdownify }}</p>
+            <div class="faq-container">
+                <h2>{{ faq.question-text }}</h2>
+                <p>{{ faq.answer-text | markdownify }}</p>
+            </div>
         {% endfor %}
     </article>
+    <article class="padded--inner news">
+        <h1><small> Recent IEM News</small></h1>
+        <p class="lead">
+            <small>{{ page.events__subtitle-text }}</small>
+        </p>
+
+        <div class="post-container">
+            {% for post in site.news %}
+                <div class="post">
+                    <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
+                    
+                    <a href="{{ post.url }}"><img src="{{ post.banner-image }}" alt=""></a>
+                    <p>{{ post.excerpt | truncatewords: 10 }}</p>
+                </div>
+                
+            {% endfor %}
+            <a href="#" class="button">Check out more news</a>
+        </div>
+        
+    </article>
     
+</section>
+
+<section class="process padded--inner">
+    <h1 class="center">
+        <small>The IEM Process</small>
+    </h1>
+    <p class="lead center">
+        <small>
+            {{ page.process__subtitle-text }}
+        </small>
+    </p>
+
+    <div class="chart">
+        {% for step in page.steps %}
+        <div class="step">
+            <h4 class="number">{{ step.number }}</h4>
+            <h3 class="heading">{{ step.heading }}</h3>
+            <h3 class="subtitle">{{ step.subtitle }}</h3>
+            <p>{{ step.paragraph }}</p>
+            <img src="{{ step.image }}" alt="">
+            <a href="" class="button">{{ step.button-text }}</a>
+        </div>
+        {% endfor %}
+    </div>
 </section>
 

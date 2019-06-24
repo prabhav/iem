@@ -1,7 +1,7 @@
 ---
 title: Home
-intro__headline-text: This is new customaizable content
-intro__subtitle-text: 1 in 10000 children are born with a passion to do something
+intro__headline-text: This is new customaizable content and Im Shikre
+intro__subtitle-text: The IEM Process can be complicated and confusing, especially when you’re a new parent and it’s your baby in question.
   amazing
 intro__button-text: Get my baby pregnant
 faqs:
@@ -11,6 +11,41 @@ faqs:
     uhas d"
 - question-text: Is it not feeling that well?
   answer-text: awwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+- question-text: Is it not feeling that well?
+  answer-text: awwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+- question-text: Is it not feeling that well?
+  answer-text: awwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+events__subtitle-text: "something is happening here and i'm not totally sad about *it*"
+process__subtitle-text: "The IEM Process can be complicated and confusing, especially when you’re a new parent and it’s your baby in question. We’re here to simplify and streamline the process for you."
+steps:
+- number: 1
+  heading: "lorem sjoduas dusado"
+  subtitle: "some aosmoaid asoimd asi daosmd asiodm asm da"
+  paragraph: "as dosau djoasj duasj duasj duasj duasj duas duasjd uasj duasj dusaj da."
+  image: "assets/img/5.png"
+  button-text: "get me pregnant"
+  button-url: "#"
+- number: 2
+  heading: "lorem sjoduas dusado"
+  subtitle: "some aosmoaid asoimd asi daosmd asiodm asm da"
+  paragraph: "as dosau djoasj duasj duasj duasj duasj duas duasjd uasj duasj dusaj da."
+  image: "assets/img/5.png"
+  button-text: "get me pregnant"
+  button-url: "#"
+- number: 3
+  heading: "lorem sjoduas dusado"
+  subtitle: "some aosmoaid asoimd asi daosmd asiodm asm da"
+  paragraph: "as dosau djoasj duasj duasj duasj duasj duas duasjd uasj duasj dusaj da."
+  image: "assets/img/5.png"
+  button-text: "get me pregnant"
+  button-url: "#"
+- number: 4
+  heading: "lorem sjoduas dusado"
+  subtitle: "some aosmoaid asoimd asi daosmd asiodm asm da"
+  paragraph: "as dosau djoasj duasj duasj duasj duasj duas duasjd uasj duasj dusaj da."
+  image: "assets/img/5.png"
+  button-text: "get me pregnant"
+  button-url: "#"
 layout: layout--index
 ---
 

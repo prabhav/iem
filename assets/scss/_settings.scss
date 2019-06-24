@@ -21,11 +21,7 @@ $pink--light: #FFF9F9;
 $small-width: 600px;
 $medium-width: 768px;
 $large-width: 1024px;
-
-// $padding--horizontal: 5%;
-// Padding for padded sections (.padded in _base.scss)
-$padding--horizontal: 10vw;
-$padding--vertical: 3rem;
+$x-large-width: 1400px;
 
 @mixin small {
   @media (min-width: #{$small-width}) {
@@ -44,6 +40,29 @@ $padding--vertical: 3rem;
     @content;
   }
 }
+
+@mixin x-large {
+  @media (min-width: #{$x-large-width}) {
+    @content;
+  }
+}
+
+// $padding--horizontal: 5%;
+// Padding for padded sections (.padded in _base.scss)
+$padding--horizontal: 10vw;
+$padding--vertical: 3vw;
+
+.padded--inner {
+	// padding: $padding--vertical $padding--horizontal;
+	padding: $padding--vertical 7vw;
+}
+
+.padded--outer {
+	// padding: $padding--vertical $padding--horizontal;
+	padding: $padding--vertical $padding--horizontal;
+}
+
+.center { text-align: center; margin: 0 auto; }
 
 // Animations
 
@@ -174,9 +193,9 @@ u { text-decoration: underline; }
 
 img { max-width: 100%; }
 
-// small {
-//     font-size: 90%;
-// }
+small {
+    font-size: 90%;
+}
 
 // Form Reset
 

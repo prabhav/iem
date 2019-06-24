@@ -1,0 +1,15 @@
+---
+title: New discovery
+date: 2015-08-10 06:29:00 Z
+intro: people gathered in delhi to talk about things and stuff.
+banner-image: "/assets/img/3.png"
+images:
+- "/uploads/5.jpg"
+- "/uploads/2-fa8829.jpg"
+- "/uploads/3.jpg"
+- "/uploads/1.jpg"
+- "/uploads/4.jpg"
+width: full
+---
+
+IEM Support Group gathers metabolic experts, patients, parents meetings, seminars and lectures about the state of IEM in India, latest developments and lobbies with authorities for better regulation, awareness and access to IEM resources.
