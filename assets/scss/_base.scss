@@ -152,6 +152,7 @@ nav[role="navigation"] {
 		display: flex;
 		flex-flow: column wrap;
 		justify-content: flex-end;
+		// justify-content: space-around;
 		height: 100vh; /* Fallback for browsers that do not support Custom Properties */
   		height: calc(var(--vh, 1vh) * 100);
 		
@@ -159,7 +160,7 @@ nav[role="navigation"] {
 
 		background: $pink;
 
-		position: absolute;
+		position: fixed;
 		width: 100vw;
 
 		z-index: 2;
