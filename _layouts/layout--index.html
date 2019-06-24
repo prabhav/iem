@@ -18,7 +18,7 @@ layout: default
     <article class="padded">
         {% for faq in page.faqs %}
             <h2>{{ faq.question-text }}</h2>
-            <p>{{ faq.answer-text }}</p>
+            <p>{{ faq.answer-text | markdownify }}</p>
         {% endfor %}
     </article>
     

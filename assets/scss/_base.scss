@@ -8,6 +8,8 @@ body {
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
 
+	overflow-x: hidden;
+
 	@include small { font-size: 90%; }
 	@include medium { font-size: 95%; }
 	@include large { font-size: 100%; }
@@ -32,7 +34,7 @@ h1 {
 h2 {
 	font: {
 		family: $font--heading;
-		size: 3em;
+		size: 2.55em;
 	}
 	color: $maroon;
 	line-height: 1.15;
@@ -47,6 +49,18 @@ p {
 	font-size: 1.25em;
 	margin-bottom: 1rem;
 	line-height: 1.4;
+
+	a  {
+		color: $maroon;
+		text-decoration: underline;
+
+		&:hover, &:focus {
+			color: rgba($maroon, 0.6);
+		}
+		&:active {
+			color: $gray;
+		}
+	}
 }
 
 p.lead {
