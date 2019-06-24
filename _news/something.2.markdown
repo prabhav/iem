@@ -1,6 +1,6 @@
 ---
 title: New discovery
-date: 2015-08-10 06:29:00 Z
+date: 2015-08-10 11:59:00 +05:30
 intro: people gathered in delhi to talk about things and stuff.
 banner-image: "/assets/img/3.png"
 images:
