@@ -401,14 +401,18 @@ section.process {
 		margin: 3rem 0;
 
 		.step {
-			width: 40%;
+			width: 100%;
 			display: flex;
 			flex-flow: column wrap;
 			justify-content: space-between;
 			align-items: center;
 			text-align: center;
 
-			@include large { width: 20%; }
+			margin-bottom: 2.5rem;
+			border-bottom: 5px dashed $pink;
+
+			@include medium { width: 40%; border: none; }
+			@include large { width: 22.5%; }
 
 			& > * {
 				margin-bottom: 1rem;
@@ -451,6 +455,10 @@ section.process {
 
 			img {
 				margin: 1.25rem 0 2.25rem;
+			}
+
+			a.button {
+				margin-bottom: 2rem;
 			}
 
 
