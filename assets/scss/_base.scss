@@ -102,15 +102,6 @@ a.button {
 	}
 }
 
-.padded--inner {
-	// padding: $padding--vertical $padding--horizontal;
-	padding: $padding--vertical 7vw;
-}
-
-.padded--outer {
-	// padding: $padding--vertical $padding--horizontal;
-	padding: $padding--vertical $padding--horizontal;
-}
 
 nav[role="navigation"] {
 
@@ -260,6 +251,12 @@ section.intro {
 		// grid-template-rows: auto;
 	}
 
+	@include x-large {
+		grid-template-columns: 10vw repeat(4, 1fr);
+
+		grid-template-areas: ".	hd	hd	.	img img";
+	}
+
 	
 
 	
@@ -281,7 +278,7 @@ section.intro {
 
 			// @include small { width: 80%; }
 			// @include medium { width: 70%; }
-			@include x-large { width: 60%; }
+			@include x-large { width: 90%; }
 		}
 
 		.button {
@@ -404,12 +401,14 @@ section.process {
 		margin: 3rem 0;
 
 		.step {
-			width: 20%;
+			width: 40%;
 			display: flex;
 			flex-flow: column wrap;
-			justify-content: space-around;
+			justify-content: space-between;
 			align-items: center;
 			text-align: center;
+
+			@include large { width: 20%; }
 
 			& > * {
 				margin-bottom: 1rem;
