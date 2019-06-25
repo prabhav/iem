@@ -4,6 +4,7 @@ intro__headline-text: This is new customaizable content and Im Shikre
 intro__subtitle-text: The IEM Process can be complicated and confusing, especially
   when you’re a new parent and it’s your baby in question. amazing
 intro__button-text: Get my baby pregnant
+intro__image: "/assets/img/baby.png"
 faqs:
 - question-text: How is you bowel feeling?
   answer-text: lorem sjoduas dusado uahsuas udhaosudhoas [uduahsuhasd](http://google.com)
