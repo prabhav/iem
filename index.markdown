@@ -27,7 +27,7 @@ steps:
   subtitle: some aosmoaid asoimd asi daosmd asiodm asm da
   paragraph: as dosau djoasj duasj duasj duasj duasj duas duasjd uasj duasj dusaj
     da.
-  image: assets/img/5.png
+  image: assets/img/baby.png
   button-text: get me pregnant
   button-url: "#"
 - number: 2
@@ -35,7 +35,7 @@ steps:
   subtitle: some aosmoaid asoimd asi daosmd asiodm asm da
   paragraph: as dosau djoasj duasj duasj duasj duasj duas duasjd uasj duasj dusaj
     da.
-  image: assets/img/5.png
+  image: assets/img/hospital.png
   button-text: get me pregnant
   button-url: "#"
 - number: 3
@@ -43,7 +43,7 @@ steps:
   subtitle: some aosmoaid asoimd asi daosmd asiodm asm da
   paragraph: as dosau djoasj duasj duasj duasj duasj duas duasjd uasj duasj dusaj
     da.
-  image: assets/img/5.png
+  image: assets/img/parent.png
   button-text: get me pregnant
   button-url: "#"
 - number: 4
@@ -51,7 +51,7 @@ steps:
   subtitle: some aosmoaid asoimd asi daosmd asiodm asm da
   paragraph: as dosau djoasj duasj duasj duasj duasj duas duasjd uasj duasj dusaj
     da.
-  image: assets/img/5.png
+  image: assets/img/newborn.png
   button-text: get me pregnant
   button-url: "#"
 layout: layout--index

@@ -103,7 +103,7 @@ a.button {
 }
 
 
-nav[role="navigation"] {
+header nav[role="navigation"] {
 
 	display: flex;
 	flex-flow: column wrap;
@@ -380,6 +380,12 @@ section.half-grid {
 					margin-bottom: 1rem;
 				}
 
+				img {
+					width: 100%;
+					max-height: 10vw;
+					object-fit: cover;
+				}
+
 				p {
 					text-align: center;
 				}
@@ -401,7 +407,7 @@ section.process {
 		display: flex;
 		flex-flow: row wrap;
 		justify-content: space-around;
-		margin: 3rem 0;
+		margin: 5rem 0 3rem;
 
 		.step {
 			width: 100%;
@@ -458,6 +464,9 @@ section.process {
 
 			img {
 				margin: 1.25rem 0 2.25rem;
+				width: 100%;
+				object-fit: cover;
+				height: 240px;
 			}
 
 			a.button {
@@ -478,11 +487,16 @@ footer {
 		ul {
 			list-style: none;
 			background: $pink;
-
+			font-size: 1.125rem;
+			display: flex;
+			flex-flow: row nowrap;
+			justify-content: space-evenly;
 
 			li {
 				font-size: 1.125rem;
 				font-family: $font--heading;
+
+				a { text-decoration: none; }
 			}
 		}
 	}
@@ -491,5 +505,24 @@ footer {
 		text-align: center;
 		display: block;
 		font-weight: 700;
+	}
+}
+
+// Main article for layout--generic
+article.article-body { 
+	width: 100%;
+
+	@include large {
+		width: 70vw;
+	}
+
+	img {
+		margin: 2rem auto;
+	}
+
+	hr {
+		width: 80%;
+		border-bottom: 2px dotted $pink--dark;
+		margin: 2rem auto;
 	}
 }

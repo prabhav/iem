@@ -19,6 +19,10 @@ as dosau djoasj duasj duasj duasj duasj duas duasjd uasj duasj dusaj as dosau dj
 
 **yolo this is some bold text shit** yes it is right [something](#)
 
+---
+
+is this an `hr` above? ^
+
 
 
 

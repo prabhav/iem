@@ -2,7 +2,7 @@
 title: New discovery
 date: 2015-08-10 11:59:00 +05:30
 intro: people gathered in delhi to talk about things and stuff.
-banner-image: "/assets/img/3.png"
+banner-image: "/assets/img/parent.png"
 images:
 - "/uploads/5.jpg"
 - "/uploads/2-fa8829.jpg"
