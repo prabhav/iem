@@ -1,7 +1,8 @@
 ---
 title: About Us
 intro__headline-text: About the IEM Charitable Trust
-intro__subtitle-text: oh yeah we are the team behind this yeah sum headline gimme some gimme some 
+intro__subtitle-text: oh yeah we are the team behind this yeah sum headline gimme
+  some gimme some
 intro__button-url: "#"
 intro__image: "/assets/img/parent.png"
 layout: layout--generic
