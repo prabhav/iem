@@ -1,7 +1,8 @@
 ---
 title: What is IEM?
 intro__headline-text: Learn more about Inborn Errors of Metabolism
-intro__subtitle-text: oh yeah yeah sum headline gimme some gimme some gimme some gimme sone
+intro__subtitle-text: oh yeah yeah sum headline gimme some gimme some gimme some gimme
+  sone
 intro__button-url: "#"
 intro__image: "/assets/img/hospital.png"
 layout: layout--generic
