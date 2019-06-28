@@ -2,17 +2,7 @@
 layout: default
 ---
 
-<section class="intro">
-    <main class="padded">
-        <h1>{{ page.intro__headline-text }}</h1>
-        <p class="lead">{{ page.intro__subtitle-text }}</p>
-        
-        <a href="#" class="button">{{ page.intro__button-text }}</a>
-    </main>
-    <figure>
-        <img src="{{ page.intro__image }}" alt="">
-    </figure>
-</section>
+{% include hero.html %}
 
 <section class="half-grid">
     <article class="padded--inner faq">
@@ -23,7 +13,7 @@ layout: default
             </div>
         {% endfor %}
     </article>
-    <article class="padded--inner news">
+    <!-- <article class="padded--inner news">
         <h1><small> Recent IEM News</small></h1>
         <p class="lead">
             <small>{{ page.events__subtitle-text }}</small>
@@ -42,7 +32,7 @@ layout: default
             <a href="#" class="button">Check out more news</a>
         </div>
         
-    </article>
+    </article> -->
     
 </section>
 
