@@ -197,37 +197,3 @@ small {
     font-size: 90%;
 }
 
-// Form Reset
-
-input[placeholder],
-	input[type="text"],
-	input[type="email"],
-	input[type="tel"],
-	input[type="url"],
-	input[type="submit"],
-	textarea,
-	select,
-	option {
-	  color: white;
-	  padding: 1rem;
-	  border-radius: 0;
-	  background: rgba(white, 0);
-	  outline-offset: 0;
-	  max-width: 100%;
-	  font: {
-	  	family: $font--body;
-	  }
-}
-
-input[type="submit"] {
-	font: {
-		family: $font--body;
-		weight: bold;
-	}
-	text-transform: uppercase;
-	-webkit-appearance: none;
-	appearance: none;
-	border-radius: 0;
-	// background: white;
-	// color: black;
-}

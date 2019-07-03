@@ -1,0 +1,26 @@
+<article class="padded--inner news
+    {% if page.url == "/news/" %} longlist {% endif %}
+">
+    <h1><small> Recent IEM News</small></h1>
+    <p class="lead">
+        <small>{{ page.events__subtitle-text }}</small>
+    </p>
+
+    <div class="post-container">
+        {% for post in site.news %}
+            <div class="post">
+                <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
+                
+                <a href="{{ post.url }}"><img src="{{ post.banner-image }}" alt=""></a>
+                <p>{{ post.excerpt | truncatewords: 10 }}</p>
+            </div>
+        {% endfor %}
+
+        {% if page.url == "/" %}
+            <a href="/news/" class="button center">Check out more news</a>
+        {% endif %}
+    </div>
+
+    
+    
+</article>

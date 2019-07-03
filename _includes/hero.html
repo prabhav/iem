@@ -1,6 +1,12 @@
 <section class="intro" style="background: linear-gradient(to bottom, rgba(255, 249, 249, 0.8), rgba(255, 249, 249, 0.8)), url({{ page.intro__image }}); background-size: cover; background-repeat: no-repeat; background-position: center center;">
     <main class="padded">
-        <h1>{{ page.intro__headline-text }}</h1>
+
+        {% if page.intro__headline-text %}
+            <h1>{{ page.intro__headline-text }}</h1>
+        {% else %}
+            <h1>{{ page.title }}</h1>
+        {% endif %}
+        
         <p class="lead">{{ page.intro__subtitle-text }}</p>
         
         {% if page.intro__button-text %}

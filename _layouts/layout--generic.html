@@ -4,9 +4,17 @@ layout: default
 
 {% include hero.html %}
 
+{% if page.url == "/news/" %}
+    {% include news.html %}
+{% endif %}
+
 <article class="padded--inner article-body">
     
     {{ content }}
+
+    {% if page.url == "/help/" %}
+        {% include form.html %}
+    {% endif %}
 
 </article>
 
