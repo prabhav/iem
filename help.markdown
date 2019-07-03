@@ -7,42 +7,6 @@ intro__image: "/assets/img/hospital.png"
 layout: layout--generic
 ---
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <!-- <div class="intro">
 
 	<h1>Aman Srivastava is a freelance graphic designer with a focus on branding, storytelling, and illustration.</h1>

@@ -12,7 +12,7 @@ images:
 width: full
 layout: layout--generic
 intro__image: "/assets/img/baby.png"
-intro__subtitle-text: "yes baby we out here"
+intro__subtitle-text: yes baby we out here
 ---
 
 IEM Support Group gathers metabolic experts, patients, parents meetings, seminars and lectures about the state of IEM in India, latest developments and lobbies with authorities for better regulation, awareness and access to IEM resources.

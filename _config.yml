@@ -15,13 +15,12 @@ collections:
     title: Work
     output: true
 defaults:
-- 
-  scope:
-    path: ""
-    type: "posts"
+- scope:
+    path: ''
+    type: posts
   values:
-    layout: "post"
-    is_post: true # automatically set is_post=true for all posts
+    layout: post
+    is_post: true
 - scope:
     path: ''
     type: pages
