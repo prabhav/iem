@@ -1,7 +1,9 @@
 ---
 title: About Us
 intro__headline-text: About the IEM Charitable Trust
-intro__subtitle-text: The IEM Process can be complicated and confusing, especially when you’re a new parent and it’s your baby in question. We’re here to simplify and streamline the process for you.
+intro__subtitle-text: The IEM Process can be complicated and confusing, especially
+  when you’re a new parent and it’s your baby in question. We’re here to simplify
+  and streamline the process for you.
 intro__button-url: "#"
 intro__image: "/assets/img/parent.png"
 layout: layout--generic

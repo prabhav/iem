@@ -1,8 +1,8 @@
 ---
 title: New NBS Centers Added
+date: 2015-08-10 11:59:00 +05:30
 intro__subtitle-text: Get your baby checked as soon as possible in these new NBS centers.
 intro__image: "/assets/img/parent.png"
-date: 2015-08-10 11:59:00 +05:30
 layout: layout--generic
 ---
 

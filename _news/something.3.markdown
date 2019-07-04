@@ -1,8 +1,8 @@
 ---
 title: IEM Meetup in Jaiput
+date: 2015-08-10 11:59:00 +05:30
 intro__subtitle-text: Please come to our meetup!
 intro__image: "/assets/img/hospital.png"
-date: 2015-08-10 11:59:00 +05:30
 layout: layout--generic
 ---
 
