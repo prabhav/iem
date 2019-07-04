@@ -7,20 +7,24 @@
     </p>
 
     <div class="post-container">
-        {% for post in site.news %}
+        {% for post in site.news limit:4 %}
             <div class="post">
                 <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
                 
-                <a href="{{ post.url }}"><img src="{{ post.banner-image }}" alt=""></a>
-                <p>{{ post.excerpt | truncatewords: 10 }}</p>
+                <a href="{{ post.url }}"><img src="{{ post.intro__image }}" alt=""></a>
+                <!-- <p>{{ post.excerpt | truncatewords: 10 }}</p> -->
+                <p>{{ post.intro__subtitle-text | truncatewords: 10 }}</p>
             </div>
         {% endfor %}
 
-        {% if page.url == "/" %}
-            <a href="/news/" class="button center">Check out more news</a>
-        {% endif %}
+        
     </div>
+    {% if page.url == "/" %}
+            <center>
+            <a href="/news/" class="button center">Check out more news</a>
 
+            </center>
+        {% endif %}
     
     
 </article>

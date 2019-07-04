@@ -1,28 +1,42 @@
 ---
 title: What is IEM?
 intro__headline-text: Learn more about Inborn Errors of Metabolism
-intro__subtitle-text: oh yeah yeah sum headline gimme some gimme some gimme some gimme
-  sone
+intro__subtitle-text: The IEM Process can be complicated and confusing, especially when you’re a new parent and it’s your baby in question. We’re here to simplify and streamline the process for you.
 intro__button-url: "#"
 intro__image: "/assets/img/hospital.png"
 layout: layout--generic
 ---
 
-## yay then whatever right
+# Know more about the disorder
 
-as dosau djoasj duasj duasj duasj duasj duas duasjd uasj duasj dusaj as dosau djoasj duasj duasj duasj duasj duas duasjd uasj duasj dusajas dosau djoasj duasj duasj duasj duasj duas duasjd uasj duasj dusaj as dosau djoasj duasj duasj duasj duasj duas duasjd uasj duasj dusaj as dosau djoasj duasj duasj duasj duasj duas duasjd uasj duasj dusaj
+The IEM Process can be complicated and confusing, especially when you’re a new parent and it’s your baby in question. We’re here to simplify and streamline the process for you.
+
+## List of Resources
+
+1. [AIIMS Certified Injection list](#)
+1. **[AIIMS Certified Injection list](#)**
+2. **[AIIMS Certified Injection list](#)**
+2. *[AIIMS Certified Injection list](#)*
+
+## List of initial symptoms
+
+- **Rashes on the body**: Check for skin irritation in the first week of birth.
+- **Rashes on the body**: Check for skin irritation in the first week of birth.
+- **Rashes on the body**: Check for skin irritation in the first week of birth.
+- **Rashes on the body**: Check for skin irritation in the first week of birth.
+- **Rashes on the body**: Check for skin irritation in the first week of birth.
+- **Rashes on the body**: Check for skin irritation in the first week of birth.
 
 ![ashdousahdouahsoa](/assets/img/baby.png)
 
-# yay there
+---
 
-## something else
+# Subheading 2
 
-**yolo this is some bold text shit** yes it is right [something](#)
+We are pleased to share with you this realistic Free Postcard Mockup which you can use freely to showcase your next postcard project. All you have to do is place your artwork inside the smart layers, hit save and you are done. Have fun!
 
 ---
 
-is this an `hr` above? ^
 
 
 

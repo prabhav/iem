@@ -1,7 +1,7 @@
 ---
-title: Increased Production of IEM Medicines
-intro__subtitle-text: Subtitle text for new posting--brief summary of what happened
-intro__image: "/assets/img/newborn.png"
+title: New NBS Centers Added
+intro__subtitle-text: Get your baby checked as soon as possible in these new NBS centers.
+intro__image: "/assets/img/parent.png"
 date: 2015-08-10 11:59:00 +05:30
 layout: layout--generic
 ---

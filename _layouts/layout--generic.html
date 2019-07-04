@@ -8,14 +8,16 @@ layout: default
     {% include news.html %}
 {% endif %}
 
-<article class="padded--inner article-body">
     
-    {{ content }}
-
-    {% if page.url == "/help/" %}
+{% if page.url == "/help/" %}
+    <article class="padded--outer">
         {% include form.html %}
-    {% endif %}
+    </article>
+{% endif %}
 
+
+<article class="padded--outer article-body">
+        {{ content }}
 </article>
 
     
