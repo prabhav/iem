@@ -1,7 +1,8 @@
 ---
 title: Contact Us for Help
 intro__headline-text: Get IEM Help and Resources
-intro__subtitle-text: Be it medicines, dieticians, doctors or just a sense of community, we can help out. Get in touch with us either via whatsapp, email or the form below.
+intro__subtitle-text: Be it medicines, dieticians, doctors or just a sense of community,
+  we can help out. Get in touch with us either via whatsapp, email or the form below.
 intro__button-url: "#"
 intro__image: "/assets/img/hospital.png"
 layout: layout--generic
