@@ -1,8 +1,8 @@
 ---
 title: Increased Production of IEM Medicines
+date: 2015-08-10 11:59:00 +05:30
 intro__subtitle-text: Subtitle text for new posting--brief summary of what happened
 intro__image: "/assets/img/newborn.png"
-date: 2015-08-10 11:59:00 +05:30
 layout: layout--generic
 ---
 

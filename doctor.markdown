@@ -1,7 +1,9 @@
 ---
 title: Doctor Resources
 intro__headline-text: Resources and help for Doctors
-intro__subtitle-text: The IEM Process can be complicated and confusing, especially when you’re a new parent and it’s your baby in question. We’re here to simplify and streamline the process for you.
+intro__subtitle-text: The IEM Process can be complicated and confusing, especially
+  when you’re a new parent and it’s your baby in question. We’re here to simplify
+  and streamline the process for you.
 intro__button-url: "#"
 intro__image: "/assets/img/newborn.png"
 layout: layout--generic

@@ -1,8 +1,9 @@
 ---
 title: AIIMS Seminar on IEM and its Effects
-intro__subtitle-text: Come and interact with doctors, parents and community members from all around the country.
-intro__image: "/assets/img/hospital.png"
 date: 2015-08-10 11:59:00 +05:30
+intro__subtitle-text: Come and interact with doctors, parents and community members
+  from all around the country.
+intro__image: "/assets/img/hospital.png"
 layout: layout--generic
 ---
 
