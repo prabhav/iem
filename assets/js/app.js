@@ -2,8 +2,8 @@ var main = function() {
 	$('.nav-icon').click(function() {
 			console.log('icon clikced');
 			$('.nav-icon').toggleClass('turn');
-			$('nav ul').toggleClass('close');
-			$('nav ul').toggleClass('open');
+			$('header nav ul').toggleClass('close');
+			$('header nav ul').toggleClass('open');
 	});
 	// We listen to the resize event
 	// window.addEventListener('resize', () => {

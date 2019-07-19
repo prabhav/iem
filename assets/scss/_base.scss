@@ -130,10 +130,14 @@ header nav[role="navigation"] {
 		
 		font: {
 			weight: 700;
-			size: 4.5rem;
+			size: 2.5rem;
 			family: $font--heading;
 		}
 		color: $maroon;
+
+		&.plus, &.turn {
+			font-size: 4.5rem;
+		}
 
 		&.plus {
 			transform: rotate(0deg);
@@ -166,7 +170,7 @@ header nav[role="navigation"] {
 
 		z-index: 2;
 
-		padding: 2rem;
+		padding: 1.5rem;
 
 		font: {
 			family: $font--heading;
@@ -182,7 +186,7 @@ header nav[role="navigation"] {
 			flex-flow: row nowrap;
 			justify-content: space-evenly;
 			height: auto;
-			font-size: 1.125rem;
+			font-size: 1.25rem;
 			animation: none;
 			background: white;
 			text-decoration: none;
@@ -616,7 +620,7 @@ input[placeholder],
 // form
 
 .form {
-	padding: 1.5vw 5vw 3rem;
+	padding: 1.5vw 0 0;
 	margin-bottom: 2rem;
 	display: grid;
 	grid-gap: 5vw;
