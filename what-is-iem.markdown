@@ -1,6 +1,6 @@
 ---
 title: What is IEM?
-intro__headline-text: "****Learn more about Inborn Errors of Metabolism"
+intro__headline-text: Learn more about Inborn Errors of Metabolism
 intro__subtitle-text: The IEM Process can be complicated and confusing, especially
   when you’re a new parent and it’s your baby in question. We’re here to simplify
   and streamline the process for you.
