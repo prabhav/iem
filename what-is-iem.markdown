@@ -15,6 +15,8 @@ Inborn errors of metabolism (IEM) are genetic disorders in which the body cannot
 
 
 What are enzymes? 
+
+
 Enzymes are proteins that help in converting food into energy which helps in doing work. If the food is not broken down properly it may produce toxins that cause medical problems including growth, problems in the newborn such as poor feeding, committing, diarrheas, dehydration, temperature instability, seizures and altered level of consciousness. Inborn errors of metabolism are now often referred to as congenital metabolic diseases or inherited metabolic diseases. 
 
 
