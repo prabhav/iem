@@ -12,7 +12,7 @@ layout: layout--generic
 # Know more about the disorder
 
 Inborn errors of metabolism (IEM) are genetic disorders in which the body cannot convert the food (carbohydrates, protein, and fats) into energy and other necessary elements like amino acids and sterols. These disorders are usually caused by gene diffracts the make a particular enzyme defective or efficiency of the substances that activate the enzymes. 
-## 
+
 **
 What are enzymes? **
 
