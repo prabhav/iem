@@ -30,8 +30,8 @@ steps:
 - number: 1
   heading: Diagnosis
   subtitle: How do you know you have it in the first place?
-  paragraph: New Born Screening is your best bet. Get your screening done within 72
-    hours and a week of the birth.
+  paragraph: New Born Screening is your best bet. Get your baby's screening done within
+    72 hours and a week of the birth.
   image: assets/img/baby.png
   button-text: Find NBS Centers
   button-url: "/help/#new-born-screening-centers"
@@ -39,7 +39,7 @@ steps:
   heading: Consultation
   subtitle: Consult a metabolic expert and get your baby tested.
   paragraph: We can help connect you with metabolic experts around the country and
-    get the best help.
+    get you the best help.
   image: assets/img/hospital.png
   button-text: Find Metabolic Experts
   button-url: "#"
@@ -54,8 +54,8 @@ steps:
 - number: 4
   heading: Therapy & Follow-up
   subtitle: Keep up to date with therapies and follow-ups.
-  paragraph: New Born Screening is your best bet. Get your screening done within 72
-    hours and a week of the birth.
+  paragraph: New Born Screening is your best bet. Get your baby's screening done within
+    72 hours and a week of the birth.
   image: assets/img/newborn.png
   button-text: Find Therapists
   button-url: "#"
