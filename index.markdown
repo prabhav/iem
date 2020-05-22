@@ -13,8 +13,8 @@ faqs:
     uhas d  sa douhasd ouhaos dahsoudhsudhashd
 - question-text: Are you an expecting or recent parent?
   answer-text: New Born Screening is a simple procedure for diagnosing Inborn Errors
-    of Metabolism. Ask your paeditrician or gynaecologist today about Inborn Errors
-    of Metabolism or help us find you appropriate experts and resources.
+    of Metabolism. Ask your paediatrician or gynaecologist today about Inborn Errors
+    of Metabolism or we can help you find appropriate experts and resources.
 - question-text: Need help with finding doctors and diets?
   answer-text: Navigating your child through IEM can be a bit overwhelming. Let us
     help you connect with doctors and licensed diet providers and manufacturers.
